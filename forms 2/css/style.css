@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
+}
+
+.form-container{
+
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: rgb(59, 59, 59) 0px 5px 15px ;
+    border: 1px, solid gray ;
+    border-radius: 10px;
+    padding: 20px 30px ;
+
+}
+
+.title {
+    font-weight: 900;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+}
+
+.form{
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+
+}
+
+.input{
+
+    border-radius: 20px;
+    border: 1px solid gray;
+    padding: 5px ;
+    text-align: center;
+    outline: 0;
+    box-shadow: rgb(59, 59, 59) 0px 1px 4px ;
+
+
+}
+
+.btn-login {
+
+    border-radius: 20px;
+    border: 1px solid gray ;
+    box-shadow: rgb(56, 71, 73) 0px 1px 4px ;
+
+
+}
