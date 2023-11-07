@@ -1,0 +1,82 @@
+html{
+
+    height: 100%;
+    width: 100%;
+
+
+}
+
+main{ 
+    
+    min-height:100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+.container{
+    
+    background-color: rgb(255, 255, 255);
+    box-shadow: black  5px 5px  10px ;
+    padding: 20px;
+    border-radius: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.title {
+
+    text-align: center;
+    font-weight: 900;
+    
+
+}
+
+.form{
+    font-size: 13px;
+    font-weight: 1500;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.increva-se{
+    text-align: center;
+}
+
+.e-senha{
+    text-align: center;
+}
+
+
+.input:valid, textarea:valid {
+
+ border-color: green;
+
+ 
+}
+
+.input:invalid{
+
+ border-color: red;
+
+}
+
+.input {
+    border-radius: 5px;
+    border: solid gray 2px ;
+    
+
+
+}
+
+
+.botao{
+    border: solid gray 1px ;
+    border-radius: 5px;
+    margin: 0px;
+    background-color: rgb(94, 118, 126);
+    color: white;
+
+}
+
