@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="/style.css">
+
+    </head>
+    <body>
+
+        <form class="form">
+
+            <p class="title">Menu de cadastro</p>
+
+            <label for="name" class="label">Digite seu nome</label>
+            <input type="text" class="input" id="name" placeholder="Nome"
+                maxlength="20">
+
+            <label for="sname" class="label"> Digite seu sobrenome</label>
+            <input type="text" class="input" id="sname" placeholder="Sobrenome"
+                maxlength="30">
+
+            <label for="date" class="label"> Data de nascimento</label>
+            <input type="date" class="input" id="date">
+
+            <fieldset class="fieldset">
+                <p class="gen">Sexo</p>
+                <label for="genf">Feminino</label>
+                <input type="radio" name="sexo" id="gen" class="genf">
+                <label for="genm">masculino</label>
+                <input type="radio" name="sexo" id="gen" class="genm">
+            </fieldset>
+
+            <label for="end" class="label">Digite seu endereço</label>
+            <input type="text" id="end" class="input" placeholder="Endereço">
+
+            <label for="cit" class="label">Digite sua cidade</label>
+            <input type="text" id="cit" class="input" placeholder="Cidade"
+                maxlength="20">
+
+            <label for="cep" class="label"> Digite seu Cep </label>
+            <input type="text" class="input" id="cep"
+                placeholder="Digite seu cep" maxlength="11">
+
+            <label for="select">Selecione seu páis</label>
+            <select class="select" name="menu-pa" id="menu-pa">
+
+                <option value>Brasil</option>
+                <option value>Uruguai</option>
+                <option value>Chile</option>
+                <option value>Argentina</option>
+                <option value>Portugal</option>
+
+            </select>
+
+            <label for="email" class="label">Digit e seu e-mail</label>
+            <input type="email" class="input" id="email" placeholder="E-mail"
+                maxlength="50">
+
+            <label for="password" class="label">Crie sua senha</label>
+            <input type="password" class="input " name="password" id="password"
+                placeholder="Senha" maxlength="8">
+
+            <label for="rpassword" class="label">Repita sua senha</label>
+            <input type="password" class="input " id="rpassword" maxlength="8"
+                placeholder="Senha">
+
+            <button class="botao">Enviar</button>
+        </form>
+
+      
+
+    </body>
+</html>
